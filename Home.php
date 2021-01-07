@@ -1,3 +1,6 @@
+<?php
+  include 'session.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,11 +21,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./CSS/Style.css"/>
+  <link rel="stylesheet" href="CSS/Style.css"/>
   <title>TUNFLIX</title>
 </head>
 <body>
-  <?php include './template/nav-bar-user.php' ?>
+  <?php include 'template/nav-bar-user.php' ?>
    <div class="bg1">
     <section class="pres fluid-container">
       <div class="row align-items-center">

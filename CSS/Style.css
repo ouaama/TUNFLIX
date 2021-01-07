@@ -1,0 +1,344 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  overflow-x: hidden;
+  margin: auto;
+  box-sizing: border-box;
+}
+header {
+  align-items: center;
+  padding: 20px;
+  height: auto;
+}
+
+.nav-links {
+  align-items: center;
+  justify-content: space-around;
+}
+.cnt-in-div {
+  margin: auto;
+}
+.logo h3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  letter-spacing: 20px;
+  font-size: 40px;
+}
+
+.TUN {
+  color: red;
+}
+.nav-link {
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-link {
+  border-bottom: 1px white solid;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.slideshow {
+  background-color: black;
+}
+
+.marg-sld {
+  padding: 100px;
+}
+
+body {
+  background-color: black;
+}
+header {
+  background-color: black;
+}
+.bg1 {
+  background: url(../Images/Background/pg2.png) no-repeat;
+  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+.pres {
+  height: auto;
+  padding: 10%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  background-size: 100% auto;
+}
+
+.intro-text h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 60px;
+}
+.intro-text h1 span {
+  color: red;
+}
+.intro-text h3 {
+  font-size: 40px;
+}
+.intro-text p {
+  font-size: 25px;
+}
+.intro-text div:not(:last-child) {
+  margin-bottom: 25px;
+}
+.line {
+  background-color: #3a3a3a;
+  width: 100%;
+  height: 10px;
+}
+.test2 {
+  height: 90vh;
+}
+.test {
+  color: white;
+  text-align: center;
+}
+
+.newsletter-email {
+  border: 1px black solid;
+  padding: 15px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+.notif-button {
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: 1px black solid;
+  width: 150px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+}
+
+.newsletter-email:focus {
+  box-shadow: none;
+}
+.infos-container {
+  width: 100%;
+  margin: auto;
+ 
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regist {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+.infos-container form {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30%;
+  padding-bottom: 50px;
+  border-radius: 4px;
+}
+.form {
+  width: 60%;
+  height: 80px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding-top: 20px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.form label {
+  position: absolute;
+  color: white;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid white;
+}
+form label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid red;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+.content {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-an .content,
+.form input:valid + .label-an .content {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: red;
+}
+.form input:focus + .label-an::after,
+.form input:valid + .label-an::after {
+  transform: translateX(0%);
+}
+
+.drp {
+  background-color: black;
+  background-color: transparent;
+}
+.drp li {
+  transition: all 0.3s;
+}
+.drp li:hover {
+  background-color: rgb(31, 31, 31);
+}
+.edit-profile {
+  background-color: #18191a;
+}
+.edit-prof-div {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  background-color: #18191a;
+}
+
+.side-bar {
+  width: 20%;
+
+  background-color: #18191a;
+  height: fit-content;
+}
+
+.side-bar h2 {
+  padding-top: 10%;
+  display: flex;
+  color: #b9b9b9;
+  text-align: center;
+}
+.side-bar a {
+  position: relative;
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+.side-bar a:hover {
+  color: white;
+  padding-left: 10px;
+  border-left: 4px red solid;
+  background-color: black;
+}
+.side-bar a::after {
+  border-left: 4px red solid;
+  background-color: rgb(31, 31, 31);
+}
+.fa-envelope,
+.fa-dollar-sign,
+.fa-portrait,
+.fa-id-badge,
+.fa-unlock-alt,
+.fa-edit {
+  color: white;
+  font-size: 30px;
+  transition: all 0.3s;
+  padding-right: 12px;
+}
+.target {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edt {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.b4-flx {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.flx-ed {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.edt {
+  display: flex;
+}
+.edt label {
+  flex: 1;
+  color: white;
+}
+.edt input {
+  flex: 4;
+  background-color: #18191a;
+  border: none;
+  outline: none;
+  color: white;
+}
+.edt input:focus {
+  background-color: #18191a;
+  box-shadow: 3px 2px 5px 2px red;
+  color: white;
+}
+.line2 {
+  background-color: white;
+  height: 1px;
+}
+
+.pic{
+  width: 80px;
+  height: 80px;
+  border: 1px white solid;
+  padding: 10px;
+}
+.upload{
+  background-color: red;
+  padding: 4px;
+  text-align: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+.upload:hover{
+  color: white;
+  background-color: rgb(145, 1, 1);
+}
+.cnt{
+ 
+}
+@media screen and (max-width: 450px) {
+  .intro-text h1 {
+    font-size: 30px;
+  }
+  .intro-text h3 {
+    font-size: 20px;
+  }
+  .intro-text p {
+    font-size: 15px;
+  }
+}
